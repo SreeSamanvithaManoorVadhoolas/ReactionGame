@@ -13,4 +13,4 @@
 # Arcadian Style light
 ## Fader:
 In the first step, we want to create a fading travelling light. The three LED’s are glowing using the following pattern:
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/SreeSamanvithaManoorVadhoolas/ReactionGame/blob/master/Screenshot%202024-04-18%20020035.png))
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/SreeSamanvithaManoorVadhoolas/ReactionGame/blob/master/Screenshot%202024-04-18%20020035.png)
