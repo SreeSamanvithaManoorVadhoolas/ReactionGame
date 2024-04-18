@@ -14,3 +14,27 @@
 ## Fader:
 In the first step, we want to create a fading travelling light. The three LED’s are glowing using the following pattern:
 ![alt text](https://github.com/SreeSamanvithaManoorVadhoolas/ReactionGame/blob/master/fader.png)
+##Glower:
+Using the RGB LED, we want to implement an easily configurable glowing function. Using a const - table like the following (pseudo code)
+const RG__Glow_t RG_glowtable_1[] = {
+//Red Green Blue TimeInMS
+{255, 0, 0, 500},
+{0, 255, 0, 500},
+{0, 0, 255, 500},
+{0, 0, 0, 100},
+{255, 255, 255, 100},
+{0, 0, 0, 100},
+{255, 255, 255, 100},
+{0, 0, 0, 100},
+{255, 255, 255, 100}
+};
+will create the sequence:
+- 500ms red
+- 500ms green
+- 500ms blue
+- 100ms off
+- 100ms white
+- 100ms off
+- 100ms white
+- 100ms off
+- 100ms white
